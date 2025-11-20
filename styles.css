@@ -1,0 +1,26 @@
+body {
+  background-color: #7F055F;
+  color: #E5A4CB;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact {
+  background-color: #e5a4cb;
+  padding: 20px;
+  color: #7F055F;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 1px solid #FFE8D4;
+}
+
+h1 {
+  text-shadow: 2px 2px 0px white;
+  -webkit-text-stroke-width: 1px; /* Set the outline width */
+  -webkit-text-stroke-color: black; /* Set the outline color */
+}
+
+
+
