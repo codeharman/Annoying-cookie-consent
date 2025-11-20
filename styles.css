@@ -22,5 +22,53 @@ h1 {
   -webkit-text-stroke-color: black; /* Set the outline color */
 }
 
+.modal {
+  display: none;
+  padding: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  box-shadow: 0px 0px 20px 5px #E5A4CB;
+  border: 2px dashed hotpink;
+}
+
+.form {
+  display: grid;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+button {
+  padding: 5px 14px;
+  background-color: hotpink;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+button:hover {
+  background-color: #7F055F;
+  color: white;
+  cursor: pointer;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.imga {
+  width: 150px;
+  border-radius: 4px;
+}
 
 
